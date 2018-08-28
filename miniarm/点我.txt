@@ -1,0 +1,48 @@
+
+
+如不使用Arduino控制，请略过。。。
+
+：：什么是uArm？
+关于uArm 请到 http://www.ufactory.cc/ 查看
+
+：：系统报错无法上传程序？
+X64的win系统无法使用Arduino的IDE编译程序，请更换其他win32的系统，或者mac系统。
+
+
+：：适合MiniArm的库文件是什么？
+利用原版的uarm库，对miniarm的使用进行了优化。并在原程序中增加了大量的注释。
+
+
+：：文件夹中的文件都是什么？
+适合MiniArm的库文件 的libraries 下面的 examples文件夹中有4个程序 
+
+MotionDemo  自动演示程序，可以简单动作，修改参数即可。
+RemoteControl 是配合 uArm_Mouse_Control_for_Windows-master 文件夹里的 MouseControl_V1.0.5.exe程序使用的pc端控软件，可用键鼠和Arduino通讯控制机械臂。
+Standard	是配合WII手柄控制的程序
+uArmCalibration	uArm校准程序，miniarm无用
+
+
+
+
+：：如何使用libraries ？
+请将UF_uArm 文件夹复制到 C:\Program Files\Arduino\libraries 下（如果不会在c盘找\Arduino\libraries文件夹，请使用mac系统的电脑。） 重新开启Arduino IDE编译程序后就可以调用该库文件了。
+
+
+
+————————————————————————————————
+
+如果你对Arduino了解的还不够多，可以学习一下先。
+
+Arduino 官网的入门教程
+https://www.arduino.cc/en/Guide/Windows?setlang=cn
+
+非常不错的 Arduino 学习课程
+实用技能 - 网易云课堂 
+http://study.163.com/find.htm#/find/search?p=arduino
+
+极客工坊-Arduino精华 - Powered by Discuz!
+http://www.geek-workshop.com/portal.php?mod=list&catid=1
+
+
+
+更新时间 2016.1.11
